@@ -11,7 +11,7 @@ class coba extends BaseController
     public function login()
     {
         $data = [
-            'title' => 'login'
+            'title' => 'Selamat datang'
         ];
         return view('auth/login.php', $data);
     }
