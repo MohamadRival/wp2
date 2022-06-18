@@ -14,6 +14,7 @@ class coba extends BaseController
             'title' => 'login'
         ];
         return view('auth/login.php', $data);
+        // contoh controllers
     }
     public function register()
     {
